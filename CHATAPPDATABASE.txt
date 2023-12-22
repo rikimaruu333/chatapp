@@ -1,0 +1,28 @@
+STEP 1: CREATE A FOLDER "chatapp" ON HTDOCS AND PUT THE FILES THERE.
+
+
+STEP 2: CREATE A DATABASE CALLED "chatapp" IN PHPMYADMIN
+
+
+STEP 3: ADD 2 TABLES "messages","users"
+
+
+IN THE "messages" TABLE ADD 5 COLUMNS
+
+msg_id
+incoming_msg_id
+outgoing_msg_id
+msg
+iv
+
+IN THE "users" TABLE ADD 9 COLUMNS
+
+user_id
+unique_id
+fname
+lname
+email
+password
+img
+status
+theme
